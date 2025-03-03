@@ -16,6 +16,7 @@ import com.crm.generic.baseutility.BaseClass;
 public class createOrgTest extends BaseClass {
 	@Test
 	public void createOrg() throws Throwable {
+//		getting data from excel file
 		FileInputStream fis = new FileInputStream("./testdata/testScriptdata.xlsx");
 		Workbook wb = WorkbookFactory.create(fis);
 		Sheet sh = wb.getSheet("Sheet3");
